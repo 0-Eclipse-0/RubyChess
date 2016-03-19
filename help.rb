@@ -5,7 +5,7 @@ puts "|-----By: Matt Hambrecht-----|"
 puts "|----------------------------|"
 while fileStat == "open"
  print "Please enter a command: "
- usrCommand = gets.chomp
+ usrCommand = gets.chomp;
  if usrCommand == "/help" or "/commands" or "/h" or ".help" or ".commands" or ".h"
   puts "Commands:
   puts " H/Help/Commands: Lists commands"
